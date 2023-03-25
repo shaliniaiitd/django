@@ -1,0 +1,1 @@
+!function(){"use strict";var i=require("jira/common/header");require("jquery")(function(){i.initialize()})}();

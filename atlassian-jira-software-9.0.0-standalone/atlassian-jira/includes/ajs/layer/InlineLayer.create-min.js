@@ -1,0 +1,1 @@
+define("jira/ajs/layer/inline-layer-factory",["jira/ajs/layer/inline-layer","jira/util/objects","jquery","exports"],function(e,n,t,r){"use strict";r.createInlineLayers=function(r){var a=[];return r.content&&(r.content=t(r.content),t.each(r.content,function(){var c=n.copyObject(r);c.content=t(this),a.push(new e(c))})),1===a.length?a[0]:a}});
